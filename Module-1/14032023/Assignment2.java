@@ -1,5 +1,7 @@
 package com.a14032023;
 
+//Find Area of Triangle using User defined value=0.5*a*b
+
 import java.util.Scanner;
 
 public class Assignment2 {
