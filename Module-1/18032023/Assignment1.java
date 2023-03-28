@@ -1,5 +1,12 @@
 package com.a18032023;
 
+/*Display This Information using println
+a. Your Name
+b. Your Birth date
+c. Your Age
+d. Your Address
+*/
+
 import java.util.Scanner;
 
 public class Assignment1 {
