@@ -1,5 +1,7 @@
 package com.a18032023;
 
+//Write a program to find the simple Interest.
+
 public class Assignment4 {
 	
 	public static void main(String[] args) {
