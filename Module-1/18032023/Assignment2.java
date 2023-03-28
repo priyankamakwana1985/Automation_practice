@@ -1,5 +1,7 @@
 package com.a18032023;
 
+//Write a program to make addition, Subtraction, Multiplication and Division of Two Numbers.[UseInput]
+
 import java.util.Scanner;
 
 public class Assignment2 {
