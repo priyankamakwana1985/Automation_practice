@@ -1,0 +1,175 @@
+{
+  "id": "facfd196-3bd1-469b-9854-378fc86a6035",
+  "version": "2.0",
+  "name": "TopsAssignment1",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "aab61918-8af5-49cb-bfb0-21e21c774997",
+    "name": "ContactUs",
+    "commands": [{
+      "id": "c3a57e95-5133-4924-81b8-613c6385e6ca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c3791c3-6106-4fa1-818d-c02ec3e26c2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x928",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "893a981d-7852-4b82-b00a-5b4f20f6ffb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=+91- 7622011173",
+      "targets": [
+        ["linkText=+91- 7622011173", "linkText"],
+        ["css=.py-2 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'+91- 7622011173')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'tel:7622011173')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'+91- 7622011173')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a67321c-fa6c-4a20-9395-ed50180735ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown:nth-child(6) > .nav-link",
+      "targets": [
+        ["css=.dropdown:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarNav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[192]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f82f6a36-2ba3-44e1-9130-2b799fe27536",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.dropdown:nth-child(6) > .nav-link",
+      "targets": [
+        ["css=.dropdown:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarNav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[192]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f883da-5f64-46d8-8c26-59ae591a3483",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.dropdown-menu-end > li:nth-child(4) > .dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[6]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/contact-us')])[2]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b125bcd1-58a2-45d0-bec5-e95a5c106997",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "211beb17-65af-41bc-be25-b034edb47363",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Priyanka Makwana "
+    }, {
+      "id": "4c280785-1562-457d-80a9-2cf1258ff72a",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc820f61-217a-46fb-9908-2c522987dbf5",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "priyankarmakwana1985@gmail.com"
+    }, {
+      "id": "41fd1ff9-70bc-4a12-8725-cad352e551f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "9974565600"
+    }, {
+      "id": "6e70b659-3af6-4de8-a35f-c98bb76322f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=.px-3 > div .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[150]", "xpath:href"],
+        ["xpath=//form/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ad604f1-0513-4ada-8be8-b3b5dbc00557",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aab61918-8af5-49cb-bfb0-21e21c774997"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
