@@ -1,1 +1,59 @@
 
+Assignments Module – 2 (Selenium IDE)
+
+•	What is Automation Testing?
+                                        
+              Automation Testing is the use of software to control the execution of tests, the comparison of actual outcomes to predicted outcomes, 
+the setting up of test preconditions, and other test control and test reporting functions.
+
+Commonly, test automation involves automating a manual process already in place that uses a formalized testing process.
+
+Although manual tests may find many defects in a software application, it is a laborious and time consuming process.
+
+In addition, it may not be effective in finding certain classes of defects.
+
+Test automation is a process of writing a computer program to do testing that would otherwise need to be done manually.
+
+Once tests have been automated, they can be run quickly.
+
+This is often the most cost effective method for software products that have a long maintenance life, because even minor patches over the 
+lifetime of the application can cause features to break which were working at an earlier point in time.
+
+
+•	Which are the Browsers supported by Selenium IDE?
+
+        Selenium IDE is a browser extension. Currently, both Chrome and Firefox browsers  are supported. 
+                    
+        The new version of this record and playback tool for test cases supports not only Firefox but also Chrome. 
+                    
+        Previously it only supports Firefox.
+                    
+
+•	What are the benefits of Automation Testing?
+
+1)	Speed – Automation Scripts run very fast when compared to human Users.
+
+2)	Reliable – Tests perform precisely the same operations each time they are run, there by eliminating human error.
+
+3)	Repeatable – We can test how the application reacts after repeated execution of the same operation.
+
+4)	Comprehensive – We can build a suite of tests that covers every feature in our application.
+
+5)	Reusable – We can reuse tests on different versions of an application, even if the 
+
+6)	User interface changes.
+
+
+•	What are the advantages of Selenium?
+
+1)	Open Source.
+2)	Supports all browsers like IE, Firefox, Mozilla, Safari. 
+3)	Supports all Operating Systems. 
+4)	Supports all Programming languages: Java, Ruby, C# and Python.
+5)	Run multiple tests at a time.
+
+•	Why testers should opt for Selenium and not QTP?
+
+1)	Cost (because Selenium is completely free).
+2)	Flexibility (because of a number of programming languages, browsers, and platforms it can support).
+3)	Parallel testing (something that QTP is capable of but only with use of Quality Center)
